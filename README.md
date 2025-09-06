@@ -21,9 +21,9 @@ chatbot/
 │
 ├─ backend/
 │  ├─ server.js         # Node.js server
+│  ├─ .env                 # Environment variables
+│  ├─ package.json         # Node.js dependencies
 │
-├─ .env                 # Environment variables
-├─ package.json         # Node.js dependencies
 └─ README.md            # Project documentation
 ```
 
