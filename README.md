@@ -71,8 +71,13 @@ type npm start
 
 *(Add images here to showcase your project)*
 
-![Chat Interface](uploads/chat-screenshot.png)
-![Image Upload Feature](uploads/upload-screenshot.png)
+(uploads/1.png)
+
+---
+
+(uploads/2.png)
+
+---
 
 ## 🌟 Future Improvements
 
