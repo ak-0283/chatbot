@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    background: #f2f2f2;
+  }
+  
+  /* Floating circle button */
+  .chat-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  /* Chat window */
+  .chat-container {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 320px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    overflow: hidden;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Chat header */
+  .chat-header {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-btn {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Chat area */
+  .chat-box {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background: #f9f9f9;
+  }
+  
+  .message {
+    margin: 6px 0;
+    padding: 8px;
+    border-radius: 8px;
+    max-width: 75%;
+    word-wrap: break-word;
+  }
+  
+  .user {
+    background: #007bff;
+    color: white;
+    margin-left: auto;
+  }
+  
+  .bot {
+    background: #e5e5e5;
+    margin-right: auto;
+  }
+  
+  /* Input area */
+  .input-area {
+    display: flex;
+    border-top: 1px solid #ddd;
+  }
+  
+  #user-input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+  }
+  
+  #send-btn {
+    padding: 8px 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .chat-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: #007bff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    overflow: hidden; /* hides overflow so it looks perfectly circular */
+    padding: 0;       /* removes inner spacing */
+  }
+  
+  .chat-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* ensures the image fills the circle */
+    border-radius: 50%;  /* makes the image itself circular */
+  }
