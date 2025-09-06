@@ -69,13 +69,11 @@ type npm start
 
 ## 📸 Screenshots
 
-*(Add images here to showcase your project)*
-
-(uploads/1.png)
+![Screenshot 1](1.png) 
 
 ---
 
-(uploads/2.png)
+![Screenshot 2](2.png)
 
 ---
 
